@@ -5,9 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      body{
+        background-color: aqua;
+      }
       img {
         height: 200px;
         width: 200px;
+      }
+      @media screen and (min-width:0px) and (max-width:450px) 
+      {
+        body
+        {
+          background-color:blue;
+        } 
+        
+      }
+      @media screen  and (min-width:451px)and (max-width:750px){
+        body{
+          background-color: forestgreen;
+        }
+        
+      }
+      @media screen and (min-width:751px) and (max-width:1030px) {
+        body{
+          background-color: yellow;
+        }
+        
       }
       /* @media screen and ( min-width:0px) and (max-width:475px){
 .sky,.jb{
@@ -65,9 +88,7 @@ display: none;
         color: rgb(0, 247, 255);
         background-color: blue;
       }
-      body {
-        background-color: aquamarine;
-      }
+      
       h1{
         text-align: center;
       }
